@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package project;
 
 import java.io.FileInputStream;
@@ -13,10 +9,7 @@ import javax.swing.JFrame;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 
-/**
- *
- * @author SANGEETHA
- */
+
 public class StaffDetails extends JFrame {
     JFrame f;
     JTable j;
