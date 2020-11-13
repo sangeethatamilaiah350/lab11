@@ -75,7 +75,7 @@ public class StaffDetails extends JFrame {
         
     } 
     public static void main(String[] args) throws IOException, FileNotFoundException, ClassNotFoundException {
-    new StaffDetails("101");
+   // new StaffDetails("101");
     }
     
 }
