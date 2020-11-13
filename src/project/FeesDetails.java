@@ -183,15 +183,7 @@ public class FeesDetails extends JFrame  implements ActionListener{
         t1.setBounds(450,300,100,30);
         f.add(t1);
         
-//        l17=new JLabel("balance");
-//        l17.setBounds(450,330,100,100);
-//        f.add(l17);
-//       
-//      
-//        l18=new JLabel("onh");
-//        l18.setBounds(550,330,100,100);
-//        f.add(l18);
-//        
+
         ok=new JButton("ok");
         ok.setBounds(500,330,50,50);
         f.add(ok);
@@ -203,7 +195,7 @@ public class FeesDetails extends JFrame  implements ActionListener{
        f.setVisible(true); 
     }
     public static void main(String args[]) throws IOException, FileNotFoundException, ClassNotFoundException{
-       // new FeesDetails("1","cse");
+      
     }
 
     @Override
