@@ -75,7 +75,7 @@ public class StudentAttendance implements ActionListener{
    
     
     public static void main(String[] args) throws IOException {
-     new StudentAttendance();   
+    // new StudentAttendance();   
      
     }
    
