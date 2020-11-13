@@ -48,9 +48,7 @@ public class StudentList {
             }
             
             }
-        for (int i=0;i<studentList.size();i++){
-         System.out.println(studentList.get(i).getAbsent()); 
-        }
+       
         
         
         return member;
@@ -96,9 +94,7 @@ public class StudentList {
             }
             
            
-        for (int i=0;i<studentList.size();i++){
-         System.out.println(studentList.get(i).getPaid()); 
-        }
+       
         
         
         return member;
