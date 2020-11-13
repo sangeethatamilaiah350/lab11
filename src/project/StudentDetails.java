@@ -19,7 +19,7 @@ public class StudentDetails extends JFrame{
         f = new JFrame("STUDENT DETAILS"); 
         P=p;
         PP=pp;
-        // Frame Title 
+        
       
   
         
@@ -68,8 +68,6 @@ public class StudentDetails extends JFrame{
         
         
     }
-    public static void main(String[] args) {
-      
-    }
+   
     
 }
