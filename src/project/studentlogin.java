@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package project;
 
 import java.awt.Graphics;
@@ -19,10 +15,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-/**
- *
- * @author SANGEETHA
- */
+
 public class studentlogin extends JFrame  implements ActionListener{
 
     JFrame frame;
@@ -75,7 +68,7 @@ public class studentlogin extends JFrame  implements ActionListener{
         
     
     public static void main(String[] args) throws IOException {
-        new studentlogin() ;
+        //new studentlogin() ;
     }
 
     @Override
