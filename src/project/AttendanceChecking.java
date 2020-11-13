@@ -29,21 +29,7 @@ public class AttendanceChecking extends JFrame{
         l.setBounds(250,50,50,50);
         l2=new JLabel("Number of Days Absentees");
         l2.setBounds(0,50,250,50);
-//        l2=new JLabel("TUTION FEE :");
-//        l2.setBounds(200,150,100,100);
-//        frame.add(l2);
-//        
-//        l3=new JLabel(one1);
-//        l3.setBounds(300,150,100,100);
-//        frame.add(l3);
-        
-//        l4=new JLabel("TRANSPORT");
-//        l4.setBounds(200,200,100,100);
-//        frame.add(l4);
-        
-//        l5=new JLabel(two1);
-//        l5.setBounds(300,200,100,100);
-//        frame.add(l5);
+
         frame.add(l);
         frame.add(l2);
         frame.setSize(720,480);
