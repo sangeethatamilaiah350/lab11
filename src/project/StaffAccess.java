@@ -37,14 +37,14 @@ public class StaffAccess extends JFrame implements ActionListener{
        
        
         teachingstaff= new JButton("Staff Details");
-        //nonteachingstaff=new JButton("Non-Teaching Staff ");
+      
         studentattendance=new JButton("Student Attendance");
        
        
        teachingstaff.setBounds(250, 50, 150, 40);
        teachingstaff.setBackground(Color.WHITE);
-        //nonteachingstaff.setBounds(250,150,150,40);
-        //nonteachingstaff.setBackground(Color.WHITE);
+       
+        
         studentattendance.setBounds(250,250,150,40);
         studentattendance.setBackground(Color.WHITE);
         
@@ -55,7 +55,7 @@ public class StaffAccess extends JFrame implements ActionListener{
  
       
         frame.add(teachingstaff);
-        //frame.add(nonteachingstaff);
+      
        
        frame.add(studentattendance);
         
