@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package project;
 
 import java.awt.Color;
@@ -18,10 +14,7 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-/**
- *
- * @author SANGEETHA
- */
+
 public class studentperformance extends JFrame implements ActionListener{
 
     JFrame frame;
@@ -43,14 +36,13 @@ public class studentperformance extends JFrame implements ActionListener{
       pack();
       setVisible(true);
         studentdetails= new JButton("Student Details");
-       // academicdetails=new JButton("Academic Details");
+       
         feedetails=new JButton("fees Details");
         attendancedetails=new JButton("Attendance Details");
        
        studentdetails.setBounds(250, 50, 150, 40);
        studentdetails.setBackground(Color.WHITE);
-//       academicdetails.setBounds(250,150,150,40);
-//       academicdetails.setBackground(Color.WHITE);
+
        feedetails.setBounds(250,200,150,40);
        feedetails.setBackground(Color.WHITE);
         attendancedetails.setBounds(250,350,150,40);
@@ -61,12 +53,12 @@ public class studentperformance extends JFrame implements ActionListener{
  
         
         frame.add(studentdetails);
-        //frame.add(academicdetails);
+        
         frame.add(feedetails);
         frame.add(attendancedetails);
         
         studentdetails.addActionListener(this);
-       // academicdetails.addActionListener(this);
+       
         feedetails.addActionListener(this);
         attendancedetails.addActionListener(this);
        
