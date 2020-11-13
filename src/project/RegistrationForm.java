@@ -1,8 +1,6 @@
 package project;
 
-// Java program to write a staff
-// information in JFrame and
-// storing it in a file
+
 
 
 
@@ -107,80 +105,7 @@ public class RegistrationForm implements ActionListener {
         b2.addActionListener(this);
         
 
-//        {
-//
-//            public void actionPerformed(ActionEvent e) {
-//
-//
-//                
-//
-//
-//                String s1 = t1.getText();
-//
-//                String s2 = t2.getText();
-//
-//                String s3 = j1.getSelectedItem() + "";
-//
-//                String s4 = j2.getSelectedItem() + "";
-//
-//                String s5 = t3.getText();
-//
-//                if (e.getSource() == b1) {
-//
-//                    try {
-//
-//
-//                        // Creating a file and
-//
-//                        // writing the data
-//
-//                        // into a Textfile.
-//
-//                        FileWriter w
-//
-//                                = new FileWriter(
-//
-//                                "GFG.txt", true);
-//
-//
-//                        w.write(s1 + "\n");
-//
-//                        w.write(s2 + "\n");
-//
-//                        w.write(s3 + "\n");
-//
-//                        w.write(s4 + "\n");
-//
-//                        w.write(s5 + "\n");
-//
-//                        w.close();
-//
-//                    } catch (Exception ae) {
-//
-//                        System.out.println(ae);
-//
-//                    }
-//
-//                }
-//
-//
-//                
-//                JOptionPane
-//
-//                        .showMessageDialog(
-//
-//                                f,
-//
-//                                "Successfully Saved"
-//
-//                                        + " The Details");
-//
-//            }
-//
-//        });
-//
-//
-//   
+
 
         f.add(l1);
 
@@ -224,7 +149,7 @@ public class RegistrationForm implements ActionListener {
 
     }
 
-    // Driver code
+   
 
     public static void main(String args[]) {
 
