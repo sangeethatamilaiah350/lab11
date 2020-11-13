@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package project;
 
 import java.io.FileInputStream;
@@ -11,10 +7,7 @@ import java.io.ObjectInputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author SANGEETHA
- */
+
 public class StaffList {
 
      public List<Staff> staffList=new ArrayList<>();
@@ -23,9 +16,7 @@ public class StaffList {
         staffList=getStaffList();
         
     }
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+   
     public List<Staff> getStaffList(){
         
             ObjectInputStream obj1=null;
